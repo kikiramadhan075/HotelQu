@@ -74,3 +74,11 @@ C:\Users\BIGBOSS\Source\Repos\HotelQuV1\sample\obj\Debug\sample.csproj.CoreCompi
 C:\Users\BIGBOSS\Source\Repos\HotelQuV1\sample\obj\Debug\sample.csproj.CopyComplete
 C:\Users\BIGBOSS\Source\Repos\HotelQuV1\sample\obj\Debug\sample.exe
 C:\Users\BIGBOSS\Source\Repos\HotelQuV1\sample\obj\Debug\sample.pdb
+C:\Users\BIGBOSS\Source\Repos\HotelQuV1\sample\obj\Debug\sample.FrmCheckIn.resources
+C:\Users\BIGBOSS\Source\Repos\HotelQuV1\sample\obj\Debug\sample.FrmReservasi.resources
+C:\Users\BIGBOSS\Source\Repos\HotelQuV1\sample\obj\Debug\sample.FrmTambahTamu.resources
+C:\Users\BIGBOSS\Source\Repos\HotelQuV1\sample\obj\Debug\sample.FrmTamu.resources
+C:\Users\BIGBOSS\Source\Repos\HotelQuV1\sample\obj\Debug\sample.FrmKamar.resources
+C:\Users\BIGBOSS\Source\Repos\HotelQuV1\sample\obj\Debug\sample.FrmTambahKamar.resources
+C:\Users\BIGBOSS\Source\Repos\HotelQuV1\sample\obj\Debug\sample.FrmTipeKamar.resources
+C:\Users\BIGBOSS\Source\Repos\HotelQuV1\sample\obj\Debug\sample.FrmUbahPsWord.resources

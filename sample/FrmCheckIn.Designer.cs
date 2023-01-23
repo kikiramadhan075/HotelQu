@@ -34,11 +34,11 @@ namespace sample
             this.label4 = new System.Windows.Forms.Label();
             this.alamatTamu = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.namaTamu = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.idTamu = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.deskripsiKamar = new System.Windows.Forms.TextBox();
@@ -57,8 +57,8 @@ namespace sample
             this.label10 = new System.Windows.Forms.Label();
             this.dateCekIn = new System.Windows.Forms.DateTimePicker();
             this.label13 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnAddReservasi = new System.Windows.Forms.Button();
+            this.btnBatal = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -117,6 +117,18 @@ namespace sample
             this.label3.TabIndex = 5;
             this.label3.Text = "Alamat         :";
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Wingdings 3", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.button1.ForeColor = System.Drawing.Color.Silver;
+            this.button1.Image = global::sample.Properties.Resources.refresh_button1;
+            this.button1.Location = new System.Drawing.Point(180, 19);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(31, 23);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "R";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // namaTamu
             // 
             this.namaTamu.Location = new System.Drawing.Point(471, 18);
@@ -140,6 +152,7 @@ namespace sample
             this.idTamu.Name = "idTamu";
             this.idTamu.Size = new System.Drawing.Size(100, 20);
             this.idTamu.TabIndex = 1;
+            this.idTamu.TextChanged += new System.EventHandler(this.idTamu_TextChanged);
             // 
             // label1
             // 
@@ -148,18 +161,6 @@ namespace sample
             this.label1.Size = new System.Drawing.Size(62, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "ID Tamu  :";
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Wingdings 3", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.button1.ForeColor = System.Drawing.Color.Silver;
-            this.button1.Image = global::sample.Properties.Resources.refresh_button1;
-            this.button1.Location = new System.Drawing.Point(180, 19);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(31, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "R";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // pictureBox1
             // 
@@ -333,23 +334,24 @@ namespace sample
             this.label13.TabIndex = 0;
             this.label13.Text = "Tanggal Cek In :";
             // 
-            // button3
+            // btnAddReservasi
             // 
-            this.button3.Location = new System.Drawing.Point(609, 517);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 39);
-            this.button3.TabIndex = 20;
-            this.button3.Text = "SIMPAN";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnAddReservasi.Location = new System.Drawing.Point(609, 517);
+            this.btnAddReservasi.Name = "btnAddReservasi";
+            this.btnAddReservasi.Size = new System.Drawing.Size(75, 39);
+            this.btnAddReservasi.TabIndex = 20;
+            this.btnAddReservasi.Text = "SIMPAN";
+            this.btnAddReservasi.UseVisualStyleBackColor = true;
+            this.btnAddReservasi.Click += new System.EventHandler(this.btnAddReservasi_Click);
             // 
-            // button4
+            // btnBatal
             // 
-            this.button4.Location = new System.Drawing.Point(528, 517);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 39);
-            this.button4.TabIndex = 21;
-            this.button4.Text = "BATAL";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnBatal.Location = new System.Drawing.Point(528, 517);
+            this.btnBatal.Name = "btnBatal";
+            this.btnBatal.Size = new System.Drawing.Size(75, 39);
+            this.btnBatal.TabIndex = 21;
+            this.btnBatal.Text = "BATAL";
+            this.btnBatal.UseVisualStyleBackColor = true;
             // 
             // FrmCheckIn
             // 
@@ -357,8 +359,8 @@ namespace sample
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.ClientSize = new System.Drawing.Size(698, 568);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnBatal);
+            this.Controls.Add(this.btnAddReservasi);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -405,7 +407,7 @@ namespace sample
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.DateTimePicker dateCekIn;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnAddReservasi;
+        private System.Windows.Forms.Button btnBatal;
     }
 }

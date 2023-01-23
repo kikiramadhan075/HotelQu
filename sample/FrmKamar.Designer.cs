@@ -73,6 +73,7 @@ namespace sample
             this.dgvkamar.Name = "dgvkamar";
             this.dgvkamar.Size = new System.Drawing.Size(571, 217);
             this.dgvkamar.TabIndex = 27;
+            this.dgvkamar.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvkamar_CellContentClick);
             // 
             // label19
             // 
@@ -107,6 +108,7 @@ namespace sample
             this.btnRefreshKamar.Size = new System.Drawing.Size(70, 70);
             this.btnRefreshKamar.TabIndex = 16;
             this.btnRefreshKamar.UseVisualStyleBackColor = false;
+            this.btnRefreshKamar.Click += new System.EventHandler(this.btnRefreshKamar_Click);
             // 
             // label27
             // 

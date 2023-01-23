@@ -30,8 +30,7 @@ namespace sample
         private void InitializeComponent()
         {
             this.pnlTipeKamar = new System.Windows.Forms.Panel();
-            this.dgvtipekamar = new System.Windows.Forms.DataGridView();
-            this.label20 = new System.Windows.Forms.Label();
+            this.btnKembali = new System.Windows.Forms.Button();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.label41 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
@@ -39,12 +38,13 @@ namespace sample
             this.label10 = new System.Windows.Forms.Label();
             this.namaTipe = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.btnKembali = new System.Windows.Forms.Button();
             this.refreshTipeKamar = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
+            this.btnAddTipe = new System.Windows.Forms.Button();
+            this.dgvtipekamar = new System.Windows.Forms.DataGridView();
+            this.label20 = new System.Windows.Forms.Label();
             this.pnlTipeKamar.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvtipekamar)).BeginInit();
             this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvtipekamar)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlTipeKamar
@@ -60,24 +60,15 @@ namespace sample
             this.pnlTipeKamar.TabIndex = 9;
             this.pnlTipeKamar.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlTipeKamar_Paint);
             // 
-            // dgvtipekamar
+            // btnKembali
             // 
-            this.dgvtipekamar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvtipekamar.Location = new System.Drawing.Point(42, 183);
-            this.dgvtipekamar.Name = "dgvtipekamar";
-            this.dgvtipekamar.Size = new System.Drawing.Size(571, 217);
-            this.dgvtipekamar.TabIndex = 27;
-            // 
-            // label20
-            // 
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label20.Location = new System.Drawing.Point(42, 8);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(540, 35);
-            this.label20.TabIndex = 26;
-            this.label20.Text = "Manajemen Tipe Kamar";
-            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnKembali.Location = new System.Drawing.Point(538, 422);
+            this.btnKembali.Name = "btnKembali";
+            this.btnKembali.Size = new System.Drawing.Size(75, 23);
+            this.btnKembali.TabIndex = 29;
+            this.btnKembali.Text = "KEMBALI";
+            this.btnKembali.UseVisualStyleBackColor = true;
+            this.btnKembali.Click += new System.EventHandler(this.btnKembali_Click);
             // 
             // groupBox5
             // 
@@ -88,7 +79,7 @@ namespace sample
             this.groupBox5.Controls.Add(this.namaTipe);
             this.groupBox5.Controls.Add(this.label9);
             this.groupBox5.Controls.Add(this.refreshTipeKamar);
-            this.groupBox5.Controls.Add(this.button10);
+            this.groupBox5.Controls.Add(this.btnAddTipe);
             this.groupBox5.Location = new System.Drawing.Point(42, 65);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(571, 86);
@@ -145,16 +136,6 @@ namespace sample
             this.label9.TabIndex = 2;
             this.label9.Text = "Nama Tipe Kamar :";
             // 
-            // btnKembali
-            // 
-            this.btnKembali.Location = new System.Drawing.Point(538, 422);
-            this.btnKembali.Name = "btnKembali";
-            this.btnKembali.Size = new System.Drawing.Size(75, 23);
-            this.btnKembali.TabIndex = 29;
-            this.btnKembali.Text = "KEMBALI";
-            this.btnKembali.UseVisualStyleBackColor = true;
-            this.btnKembali.Click += new System.EventHandler(this.btnKembali_Click);
-            // 
             // refreshTipeKamar
             // 
             this.refreshTipeKamar.BackColor = System.Drawing.Color.White;
@@ -168,16 +149,36 @@ namespace sample
             this.refreshTipeKamar.UseVisualStyleBackColor = false;
             this.refreshTipeKamar.Click += new System.EventHandler(this.refreshTipeKamar_Click);
             // 
-            // button10
+            // btnAddTipe
             // 
-            this.button10.BackColor = System.Drawing.Color.White;
-            this.button10.Image = global::sample.Properties.Resources.bedblue1;
-            this.button10.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button10.Location = new System.Drawing.Point(346, 19);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(100, 60);
-            this.button10.TabIndex = 0;
-            this.button10.UseVisualStyleBackColor = false;
+            this.btnAddTipe.BackColor = System.Drawing.Color.White;
+            this.btnAddTipe.Image = global::sample.Properties.Resources.bedblue1;
+            this.btnAddTipe.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnAddTipe.Location = new System.Drawing.Point(346, 19);
+            this.btnAddTipe.Name = "btnAddTipe";
+            this.btnAddTipe.Size = new System.Drawing.Size(100, 60);
+            this.btnAddTipe.TabIndex = 0;
+            this.btnAddTipe.UseVisualStyleBackColor = false;
+            this.btnAddTipe.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // dgvtipekamar
+            // 
+            this.dgvtipekamar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvtipekamar.Location = new System.Drawing.Point(42, 183);
+            this.dgvtipekamar.Name = "dgvtipekamar";
+            this.dgvtipekamar.Size = new System.Drawing.Size(571, 217);
+            this.dgvtipekamar.TabIndex = 27;
+            // 
+            // label20
+            // 
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label20.Location = new System.Drawing.Point(42, 8);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(540, 35);
+            this.label20.TabIndex = 26;
+            this.label20.Text = "Manajemen Tipe Kamar";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // FrmTipeKamar
             // 
@@ -190,9 +191,9 @@ namespace sample
             this.Text = "FrmTipeKamar";
             this.Load += new System.EventHandler(this.FrmTipeKamar_Load);
             this.pnlTipeKamar.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvtipekamar)).EndInit();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvtipekamar)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -209,7 +210,7 @@ namespace sample
         private System.Windows.Forms.TextBox namaTipe;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button refreshTipeKamar;
-        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button btnAddTipe;
         private System.Windows.Forms.DataGridView dgvtipekamar;
         private System.Windows.Forms.Label label20;
     }

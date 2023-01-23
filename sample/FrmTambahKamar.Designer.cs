@@ -31,8 +31,8 @@ namespace sample
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmTambahKamar));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnBatal = new System.Windows.Forms.Button();
+            this.btnAddKamar = new System.Windows.Forms.Button();
             this.cmbCariTipeKamar = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.des = new System.Windows.Forms.TextBox();
@@ -45,8 +45,8 @@ namespace sample
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.btnBatal);
+            this.groupBox1.Controls.Add(this.btnAddKamar);
             this.groupBox1.Controls.Add(this.cmbCariTipeKamar);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.des);
@@ -59,26 +59,27 @@ namespace sample
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Tambah Data Kamar";
             // 
-            // button2
+            // btnBatal
             // 
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(239, 154);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(54, 42);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Batal";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnBatal.ForeColor = System.Drawing.Color.Black;
+            this.btnBatal.Location = new System.Drawing.Point(239, 154);
+            this.btnBatal.Name = "btnBatal";
+            this.btnBatal.Size = new System.Drawing.Size(54, 42);
+            this.btnBatal.TabIndex = 5;
+            this.btnBatal.Text = "Batal";
+            this.btnBatal.UseVisualStyleBackColor = true;
+            this.btnBatal.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button1
+            // btnAddKamar
             // 
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(301, 154);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(97, 42);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Tambah Data";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnAddKamar.ForeColor = System.Drawing.Color.Black;
+            this.btnAddKamar.Location = new System.Drawing.Point(301, 154);
+            this.btnAddKamar.Name = "btnAddKamar";
+            this.btnAddKamar.Size = new System.Drawing.Size(97, 42);
+            this.btnAddKamar.TabIndex = 4;
+            this.btnAddKamar.Text = "Tambah Data";
+            this.btnAddKamar.UseVisualStyleBackColor = true;
+            this.btnAddKamar.Click += new System.EventHandler(this.btnAddKamar_Click);
             // 
             // cmbCariTipeKamar
             // 
@@ -146,8 +147,8 @@ namespace sample
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnBatal;
+        private System.Windows.Forms.Button btnAddKamar;
         private System.Windows.Forms.ComboBox cmbCariTipeKamar;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox des;

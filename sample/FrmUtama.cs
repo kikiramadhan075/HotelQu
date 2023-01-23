@@ -187,6 +187,65 @@ namespace sample
 
         }
 
+        private void label27_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCekIn_Click(object sender, EventArgs e)
+        {
+            FrmCheckIn cekIn = new FrmCheckIn();
+            cekIn.idUser = id_user;
+            cekIn.Show();
+        }
+
+        private void btnKamar_Click(object sender, EventArgs e)
+        {
+            // tampilkan panel konten
+            pnlDataMaster.Visible = false;
+            pnlTransaksi.Visible = false;
+            pnlLaporan.Visible = false;
+            pnlLainnya.Visible = false;
+            pnlAbout.Visible = false;
+            pnlKamar.Visible = true; 
+        }
+
+        private void btnReservasi_Click(object sender, EventArgs e)
+        {
+ 
+        }
+
+        private void btnReservasi_Click_1(object sender, EventArgs e)
+        {
+            FrmReservasi reservasi = new FrmReservasi();
+
+            reservasi.ShowDialog();
+        }
+
+        private void btnTamu_Click(object sender, EventArgs e)
+        {
+            FrmTamu tamu = new FrmTamu();
+            tamu.ShowDialog();
+        }
+
+        private void btnKamar_Click_1(object sender, EventArgs e)
+        {
+            FrmKamar kamar = new FrmKamar();
+            kamar.ShowDialog();
+        }
+
+        private void btnTipeKamar_Click(object sender, EventArgs e)
+        {
+            FrmTipeKamar tipeKamar = new FrmTipeKamar();
+            tipeKamar.ShowDialog();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            FrmUbahPsWord ubahPsWord = new FrmUbahPsWord();
+            ubahPsWord.ShowDialog();
+        }
+
         public FrmUtama()
         {
             InitializeComponent();

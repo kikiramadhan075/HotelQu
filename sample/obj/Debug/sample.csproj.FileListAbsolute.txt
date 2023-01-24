@@ -85,3 +85,4 @@ C:\Users\BIGBOSS\Source\Repos\HotelQuV1\sample\obj\Debug\sample.FrmUbahPsWord.re
 C:\Users\BIGBOSS\Source\Repos\HotelQuV1\sample\obj\Debug\sample.FrmPesanan.resources
 C:\Users\BIGBOSS\Source\Repos\HotelQuV1\sample\obj\Debug\sample.FrmTambahMenu.resources
 C:\Users\BIGBOSS\Source\Repos\HotelQuV1\sample\obj\Debug\sample.FrmTambahPesanan.resources
+C:\Users\BIGBOSS\Source\Repos\HotelQuV1\sample\obj\Debug\sample.FrmCheckOut.resources

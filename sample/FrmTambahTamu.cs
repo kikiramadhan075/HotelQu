@@ -44,7 +44,8 @@ namespace sample
             string kerja = pekerjaan.Text.ToString();
             string koneksi = "server=localhost;database=db_hotelqu;uid=root;password=";
             MySqlConnection koneksiB = new MySqlConnection(koneksi);
-            MySqlCommand com = new MySqlCommand("INSERT INTO tbl_tamu(nama_tamu, alamat, no_telpon, jk, pekerjaan) VALUES('" + nama + "','" + alamat + "','" + tlpn + "','" + jk + "','" + kerja + "')", koneksiB);
+            MySqlCommand com = new MySqlCommand("INSERT INTO tbl_tamu(nama_tamu, alamat, no_telpon, jk, pekerjaan) " +
+                "VALUES('" + nama + "','" + alamat + "','" + tlpn + "','" + jk + "','" + kerja + "')", koneksiB);
             try
             {
                 MySqlDataAdapter adap = new MySqlDataAdapter(com);

@@ -44,7 +44,8 @@ namespace sample
             string koneksi = "server=localhost;database=db_hotelqu;uid=root;password=";
             MySqlConnection koneksiB = new MySqlConnection(koneksi);
             MySqlCommand com = new MySqlCommand("select * from tbl_user where id_user='" + id_user + "'", koneksiB);
-            MySqlCommand com2 = new MySqlCommand("update tbl_user set password='" + baru + "' where id_user='" + id_user + "'", koneksiB);
+            MySqlCommand com2 = new MySqlCommand("update tbl_user set password='" 
+                + baru + "' where id_user='" + id_user + "'", koneksiB);
             try
             {
                 MySqlDataAdapter adap = new MySqlDataAdapter(com);

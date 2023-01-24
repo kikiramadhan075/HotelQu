@@ -43,6 +43,7 @@ namespace sample
             // 
             // pnlReservasi
             // 
+            this.pnlReservasi.BackColor = System.Drawing.SystemColors.Control;
             this.pnlReservasi.Controls.Add(this.btnKembali);
             this.pnlReservasi.Controls.Add(this.dgvreservasi);
             this.pnlReservasi.Controls.Add(this.label37);

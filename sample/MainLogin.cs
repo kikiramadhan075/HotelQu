@@ -42,7 +42,8 @@ namespace sample
                 string username = "";
                 string koneksi = "server=localhost;database=db_hotelqu;uid=root;password=";
                 MySqlConnection koneksiB = new MySqlConnection(koneksi);
-                MySqlCommand com = new MySqlCommand("select * from tbl_user where username='" + usr + "' and password='" + psw + "'", koneksiB);
+                MySqlCommand com = new MySqlCommand("select * from tbl_user where username='" 
+                    + usr + "' and password='" + psw + "'", koneksiB);
                 MySqlDataAdapter adap = new MySqlDataAdapter(com);
                 DataTable table = new DataTable();
                 adap.Fill(table);

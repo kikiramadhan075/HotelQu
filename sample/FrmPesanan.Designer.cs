@@ -30,25 +30,25 @@ namespace sample
         private void InitializeComponent()
         {
             this.pnlPesanan = new System.Windows.Forms.Panel();
-            this.dgvmenu = new System.Windows.Forms.DataGridView();
-            this.label19 = new System.Windows.Forms.Label();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.label47 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.btnRefresh = new System.Windows.Forms.Button();
-            this.btnAddMenu = new System.Windows.Forms.Button();
+            this.btnBatal = new System.Windows.Forms.Button();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.label49 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.dgvmenu = new System.Windows.Forms.DataGridView();
+            this.label19 = new System.Windows.Forms.Label();
             this.btnRefreshPesanan = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
-            this.btnBatal = new System.Windows.Forms.Button();
+            this.btnRefresh = new System.Windows.Forms.Button();
+            this.btnAddMenu = new System.Windows.Forms.Button();
             this.pnlPesanan.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvmenu)).BeginInit();
-            this.groupBox8.SuspendLayout();
             this.groupBox9.SuspendLayout();
+            this.groupBox8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvmenu)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlPesanan
@@ -63,92 +63,17 @@ namespace sample
             this.pnlPesanan.Name = "pnlPesanan";
             this.pnlPesanan.Size = new System.Drawing.Size(656, 445);
             this.pnlPesanan.TabIndex = 8;
+            this.pnlPesanan.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlPesanan_Paint);
             // 
-            // dgvmenu
+            // btnBatal
             // 
-            this.dgvmenu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvmenu.Location = new System.Drawing.Point(42, 183);
-            this.dgvmenu.Name = "dgvmenu";
-            this.dgvmenu.Size = new System.Drawing.Size(571, 217);
-            this.dgvmenu.TabIndex = 27;
-            // 
-            // label19
-            // 
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label19.Location = new System.Drawing.Point(42, 8);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(540, 35);
-            this.label19.TabIndex = 26;
-            this.label19.Text = "Manajemen Pesanan";
-            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // groupBox8
-            // 
-            this.groupBox8.Controls.Add(this.label47);
-            this.groupBox8.Controls.Add(this.label46);
-            this.groupBox8.Controls.Add(this.label45);
-            this.groupBox8.Controls.Add(this.btnRefresh);
-            this.groupBox8.Controls.Add(this.btnAddMenu);
-            this.groupBox8.Location = new System.Drawing.Point(42, 73);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(229, 86);
-            this.groupBox8.TabIndex = 28;
-            this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "Data Menu Makanan - Minuman";
-            // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.BackColor = System.Drawing.Color.White;
-            this.label47.Location = new System.Drawing.Point(42, 63);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(34, 13);
-            this.label47.TabIndex = 4;
-            this.label47.Text = "Menu";
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.BackColor = System.Drawing.Color.White;
-            this.label46.Location = new System.Drawing.Point(25, 50);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(72, 13);
-            this.label46.TabIndex = 3;
-            this.label46.Text = "Tambah Data";
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.BackColor = System.Drawing.Color.White;
-            this.label45.Location = new System.Drawing.Point(144, 59);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(44, 13);
-            this.label45.TabIndex = 2;
-            this.label45.Text = "Refresh";
-            // 
-            // btnRefresh
-            // 
-            this.btnRefresh.BackColor = System.Drawing.Color.White;
-            this.btnRefresh.Image = global::sample.Properties.Resources.refresh_button2;
-            this.btnRefresh.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnRefresh.Location = new System.Drawing.Point(115, 20);
-            this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(100, 60);
-            this.btnRefresh.TabIndex = 1;
-            this.btnRefresh.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnRefresh.UseVisualStyleBackColor = false;
-            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
-            // 
-            // btnAddMenu
-            // 
-            this.btnAddMenu.BackColor = System.Drawing.Color.White;
-            this.btnAddMenu.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnAddMenu.Location = new System.Drawing.Point(9, 19);
-            this.btnAddMenu.Name = "btnAddMenu";
-            this.btnAddMenu.Size = new System.Drawing.Size(100, 60);
-            this.btnAddMenu.TabIndex = 0;
-            this.btnAddMenu.UseVisualStyleBackColor = false;
+            this.btnBatal.Location = new System.Drawing.Point(538, 410);
+            this.btnBatal.Name = "btnBatal";
+            this.btnBatal.Size = new System.Drawing.Size(75, 23);
+            this.btnBatal.TabIndex = 30;
+            this.btnBatal.Text = "BATAL";
+            this.btnBatal.UseVisualStyleBackColor = true;
+            this.btnBatal.Click += new System.EventHandler(this.btnBatal_Click);
             // 
             // groupBox9
             // 
@@ -194,6 +119,69 @@ namespace sample
             this.label44.TabIndex = 2;
             this.label44.Text = "Refresh";
             // 
+            // groupBox8
+            // 
+            this.groupBox8.Controls.Add(this.label47);
+            this.groupBox8.Controls.Add(this.label46);
+            this.groupBox8.Controls.Add(this.label45);
+            this.groupBox8.Controls.Add(this.btnRefresh);
+            this.groupBox8.Controls.Add(this.btnAddMenu);
+            this.groupBox8.Location = new System.Drawing.Point(42, 73);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Size = new System.Drawing.Size(229, 86);
+            this.groupBox8.TabIndex = 28;
+            this.groupBox8.TabStop = false;
+            this.groupBox8.Text = "Data Menu Makanan - Minuman";
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.BackColor = System.Drawing.Color.White;
+            this.label47.Location = new System.Drawing.Point(42, 63);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(34, 13);
+            this.label47.TabIndex = 4;
+            this.label47.Text = "Menu";
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.BackColor = System.Drawing.Color.White;
+            this.label46.Location = new System.Drawing.Point(25, 50);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(72, 13);
+            this.label46.TabIndex = 3;
+            this.label46.Text = "Tambah Data";
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.BackColor = System.Drawing.Color.White;
+            this.label45.Location = new System.Drawing.Point(144, 59);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(44, 13);
+            this.label45.TabIndex = 2;
+            this.label45.Text = "Refresh";
+            // 
+            // dgvmenu
+            // 
+            this.dgvmenu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvmenu.Location = new System.Drawing.Point(42, 183);
+            this.dgvmenu.Name = "dgvmenu";
+            this.dgvmenu.Size = new System.Drawing.Size(571, 217);
+            this.dgvmenu.TabIndex = 27;
+            // 
+            // label19
+            // 
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label19.Location = new System.Drawing.Point(42, 8);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(540, 35);
+            this.label19.TabIndex = 26;
+            this.label19.Text = "Manajemen Pesanan";
+            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // btnRefreshPesanan
             // 
             this.btnRefreshPesanan.BackColor = System.Drawing.Color.White;
@@ -210,22 +198,39 @@ namespace sample
             // button24
             // 
             this.button24.BackColor = System.Drawing.Color.White;
+            this.button24.Image = global::sample.Properties.Resources.note;
             this.button24.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button24.Location = new System.Drawing.Point(9, 19);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(100, 60);
             this.button24.TabIndex = 0;
             this.button24.UseVisualStyleBackColor = false;
+            this.button24.Click += new System.EventHandler(this.button24_Click);
             // 
-            // btnBatal
+            // btnRefresh
             // 
-            this.btnBatal.Location = new System.Drawing.Point(538, 410);
-            this.btnBatal.Name = "btnBatal";
-            this.btnBatal.Size = new System.Drawing.Size(75, 23);
-            this.btnBatal.TabIndex = 30;
-            this.btnBatal.Text = "BATAL";
-            this.btnBatal.UseVisualStyleBackColor = true;
-            this.btnBatal.Click += new System.EventHandler(this.btnBatal_Click);
+            this.btnRefresh.BackColor = System.Drawing.Color.White;
+            this.btnRefresh.Image = global::sample.Properties.Resources.refresh_button2;
+            this.btnRefresh.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnRefresh.Location = new System.Drawing.Point(115, 20);
+            this.btnRefresh.Name = "btnRefresh";
+            this.btnRefresh.Size = new System.Drawing.Size(100, 60);
+            this.btnRefresh.TabIndex = 1;
+            this.btnRefresh.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnRefresh.UseVisualStyleBackColor = false;
+            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
+            // 
+            // btnAddMenu
+            // 
+            this.btnAddMenu.BackColor = System.Drawing.Color.White;
+            this.btnAddMenu.Image = global::sample.Properties.Resources.addmenu;
+            this.btnAddMenu.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnAddMenu.Location = new System.Drawing.Point(9, 19);
+            this.btnAddMenu.Name = "btnAddMenu";
+            this.btnAddMenu.Size = new System.Drawing.Size(100, 60);
+            this.btnAddMenu.TabIndex = 0;
+            this.btnAddMenu.UseVisualStyleBackColor = false;
+            this.btnAddMenu.Click += new System.EventHandler(this.btnAddMenu_Click);
             // 
             // FrmPesanan
             // 
@@ -238,11 +243,11 @@ namespace sample
             this.Text = "FrmPesanan";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.pnlPesanan.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvmenu)).EndInit();
-            this.groupBox8.ResumeLayout(false);
-            this.groupBox8.PerformLayout();
             this.groupBox9.ResumeLayout(false);
             this.groupBox9.PerformLayout();
+            this.groupBox8.ResumeLayout(false);
+            this.groupBox8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvmenu)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -83,5 +83,22 @@ namespace sample
 			dgvmenu.Columns[5].HeaderText = "Tgl Pesan";
 			dgvmenu.Columns[5].Width = 100;
 		}
+
+        private void pnlPesanan_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnAddMenu_Click(object sender, EventArgs e)
+        {
+			FrmTambahMenu tambahMenu = new FrmTambahMenu();
+			tambahMenu.ShowDialog();
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+			FrmTambahPesanan tambahPesanan = new FrmTambahPesanan();
+			tambahPesanan.ShowDialog();
+        }
     }
 }

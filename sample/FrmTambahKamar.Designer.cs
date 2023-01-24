@@ -44,7 +44,7 @@ namespace sample
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox1.BackColor = System.Drawing.Color.Silver;
             this.groupBox1.Controls.Add(this.btnBatal);
             this.groupBox1.Controls.Add(this.btnAddKamar);
             this.groupBox1.Controls.Add(this.cmbCariTipeKamar);
@@ -91,6 +91,8 @@ namespace sample
             // 
             // label2
             // 
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.ForeColor = System.Drawing.Color.Transparent;
             this.label2.Location = new System.Drawing.Point(9, 45);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(98, 23);
@@ -129,10 +131,11 @@ namespace sample
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(450, 322);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmTambahKamar";
             this.Text = "FrmTambahKamar";
             this.Load += new System.EventHandler(this.FrmTambahKamar_Load);

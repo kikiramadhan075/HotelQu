@@ -69,7 +69,7 @@ namespace sample
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox1.BackColor = System.Drawing.Color.Silver;
             this.groupBox1.Controls.Add(this.cmbJk);
             this.groupBox1.Controls.Add(this.pekerjaan);
             this.groupBox1.Controls.Add(this.label5);
@@ -182,12 +182,13 @@ namespace sample
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(329, 288);
             this.Controls.Add(this.btnAddTamu);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmTambahTamu";
             this.Text = "FrmTambahTamu";
             this.Load += new System.EventHandler(this.FrmTambahTamu_Load);

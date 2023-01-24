@@ -156,7 +156,8 @@ namespace sample
 
         private void btnLogout_Click_1(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Apakah yakin ingin keluar?", "Keluar", MessageBoxButtons.YesNo, MessageBoxIcon.Question)== DialogResult.Yes)
+            if (MessageBox.Show("Apakah yakin ingin keluar?", "Keluar", MessageBoxButtons.YesNo, 
+                MessageBoxIcon.Question)== DialogResult.Yes)
             {
                 Application.Exit();
             }

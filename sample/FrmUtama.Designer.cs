@@ -36,58 +36,37 @@ namespace sample
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.lblSeleted5 = new System.Windows.Forms.Label();
-            this.btnLogout = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.lblSeleted4 = new System.Windows.Forms.Label();
-            this.btnAbout = new System.Windows.Forms.Button();
             this.lblSeleted3 = new System.Windows.Forms.Label();
-            this.btnLainnya = new System.Windows.Forms.Button();
             this.lblSeleted2 = new System.Windows.Forms.Label();
-            this.btnLaporan = new System.Windows.Forms.Button();
             this.lblSeleted1 = new System.Windows.Forms.Label();
-            this.btnTransaksi = new System.Windows.Forms.Button();
             this.blHover = new System.Windows.Forms.Label();
-            this.btnDataMaster = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pnlControl = new System.Windows.Forms.Panel();
-            this.btnminimaze = new System.Windows.Forms.Button();
-            this.btnmaximize = new System.Windows.Forms.Button();
-            this.btnclose = new System.Windows.Forms.Button();
             this.pnlDataMaster = new System.Windows.Forms.Panel();
             this.label13 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.btnTipeKamar = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
-            this.btnPesanan = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
-            this.btnReservasi = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
-            this.btnKamar = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
-            this.btnTamu = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
-            this.btnAdmin = new System.Windows.Forms.Button();
             this.pnlTransaksi = new System.Windows.Forms.Panel();
             this.label14 = new System.Windows.Forms.Label();
             this.labelout = new System.Windows.Forms.Label();
-            this.btnCheckOut = new System.Windows.Forms.Button();
             this.labelin = new System.Windows.Forms.Label();
-            this.btnCheckIn = new System.Windows.Forms.Button();
             this.pnlLaporan = new System.Windows.Forms.Panel();
             this.label15 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
-            this.button15 = new System.Windows.Forms.Button();
             this.label23 = new System.Windows.Forms.Label();
-            this.button16 = new System.Windows.Forms.Button();
             this.pnlLainnya = new System.Windows.Forms.Panel();
             this.label16 = new System.Windows.Forms.Label();
             this.btnUpdatePsWord = new System.Windows.Forms.Label();
-            this.btnPassword = new System.Windows.Forms.Button();
             this.pnlAbout = new System.Windows.Forms.Panel();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
@@ -95,29 +74,21 @@ namespace sample
             this.dgvkamar = new System.Windows.Forms.DataGridView();
             this.label19 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
-            this.btnRefreshKamar = new System.Windows.Forms.Button();
             this.label27 = new System.Windows.Forms.Label();
-            this.btnAddKamar = new System.Windows.Forms.Button();
             this.pnlTipeKamar = new System.Windows.Forms.Panel();
             this.dgvtipekamar = new System.Windows.Forms.DataGridView();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.btnRefreshTipe = new System.Windows.Forms.Button();
             this.label24 = new System.Windows.Forms.Label();
-            this.btnAddTipe = new System.Windows.Forms.Button();
             this.pnlTamu = new System.Windows.Forms.Panel();
             this.dgvtamu = new System.Windows.Forms.DataGridView();
             this.label25 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
-            this.btnRefreshTamu = new System.Windows.Forms.Button();
             this.label29 = new System.Windows.Forms.Label();
-            this.btnAddTamu = new System.Windows.Forms.Button();
             this.pnlPesanan = new System.Windows.Forms.Panel();
             this.dgvmenu = new System.Windows.Forms.DataGridView();
             this.label31 = new System.Windows.Forms.Label();
-            this.btnRefreshMenu = new System.Windows.Forms.Button();
             this.label32 = new System.Windows.Forms.Label();
-            this.btnAddMenu = new System.Windows.Forms.Button();
             this.label30 = new System.Windows.Forms.Label();
             this.pnlGantiPassword = new System.Windows.Forms.Panel();
             this.groupBox14 = new System.Windows.Forms.GroupBox();
@@ -133,9 +104,38 @@ namespace sample
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label37 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
             this.label39 = new System.Windows.Forms.Label();
+            this.btnTipeKamar = new System.Windows.Forms.Button();
+            this.btnPesanan = new System.Windows.Forms.Button();
+            this.btnReservasi = new System.Windows.Forms.Button();
+            this.btnKamar = new System.Windows.Forms.Button();
+            this.btnTamu = new System.Windows.Forms.Button();
+            this.btnAdmin = new System.Windows.Forms.Button();
+            this.btnRefreshKamar = new System.Windows.Forms.Button();
+            this.btnAddKamar = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.btnCekIn = new System.Windows.Forms.Button();
+            this.btnCheckOut = new System.Windows.Forms.Button();
+            this.btnCheckIn = new System.Windows.Forms.Button();
+            this.btnPassword = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
+            this.btnminimaze = new System.Windows.Forms.Button();
+            this.btnmaximize = new System.Windows.Forms.Button();
+            this.btnclose = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.btnLogout = new System.Windows.Forms.Button();
+            this.btnAbout = new System.Windows.Forms.Button();
+            this.btnLainnya = new System.Windows.Forms.Button();
+            this.btnLaporan = new System.Windows.Forms.Button();
+            this.btnTransaksi = new System.Windows.Forms.Button();
+            this.btnDataMaster = new System.Windows.Forms.Button();
+            this.btnRefreshMenu = new System.Windows.Forms.Button();
+            this.btnAddMenu = new System.Windows.Forms.Button();
+            this.btnRefreshTamu = new System.Windows.Forms.Button();
+            this.btnAddTamu = new System.Windows.Forms.Button();
+            this.btnRefreshTipe = new System.Windows.Forms.Button();
+            this.btnAddTipe = new System.Windows.Forms.Button();
             this.pnlContent1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -241,19 +241,6 @@ namespace sample
             this.label2.TabIndex = 14;
             this.label2.Text = "Menu Utama";
             // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Image = global::sample.Properties.Resources.avatar50px;
-            this.button2.Location = new System.Drawing.Point(6, 10);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(70, 70);
-            this.button2.TabIndex = 13;
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // panel4
             // 
             this.panel4.Controls.Add(this.lblSeleted5);
@@ -274,24 +261,6 @@ namespace sample
             this.lblSeleted5.TabIndex = 12;
             this.lblSeleted5.Visible = false;
             // 
-            // btnLogout
-            // 
-            this.btnLogout.FlatAppearance.BorderSize = 0;
-            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogout.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnLogout.Image = global::sample.Properties.Resources.logout;
-            this.btnLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLogout.Location = new System.Drawing.Point(-3, 8);
-            this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btnLogout.Size = new System.Drawing.Size(270, 35);
-            this.btnLogout.TabIndex = 10;
-            this.btnLogout.Text = "    Keluar";
-            this.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLogout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnLogout.UseVisualStyleBackColor = true;
-            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click_1);
-            // 
             // label7
             // 
             this.label7.BackColor = System.Drawing.SystemColors.HighlightText;
@@ -309,24 +278,6 @@ namespace sample
             this.lblSeleted4.TabIndex = 9;
             this.lblSeleted4.Visible = false;
             // 
-            // btnAbout
-            // 
-            this.btnAbout.FlatAppearance.BorderSize = 0;
-            this.btnAbout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAbout.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnAbout.Image = global::sample.Properties.Resources.tentang;
-            this.btnAbout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAbout.Location = new System.Drawing.Point(-3, 317);
-            this.btnAbout.Name = "btnAbout";
-            this.btnAbout.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btnAbout.Size = new System.Drawing.Size(270, 35);
-            this.btnAbout.TabIndex = 8;
-            this.btnAbout.Text = "    Tentang Aplikasi";
-            this.btnAbout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAbout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnAbout.UseVisualStyleBackColor = true;
-            this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click_1);
-            // 
             // lblSeleted3
             // 
             this.lblSeleted3.BackColor = System.Drawing.SystemColors.HighlightText;
@@ -335,23 +286,6 @@ namespace sample
             this.lblSeleted3.Size = new System.Drawing.Size(5, 20);
             this.lblSeleted3.TabIndex = 7;
             this.lblSeleted3.Visible = false;
-            // 
-            // btnLainnya
-            // 
-            this.btnLainnya.FlatAppearance.BorderSize = 0;
-            this.btnLainnya.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLainnya.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnLainnya.Image = global::sample.Properties.Resources.lainnya;
-            this.btnLainnya.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLainnya.Location = new System.Drawing.Point(-3, 276);
-            this.btnLainnya.Name = "btnLainnya";
-            this.btnLainnya.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btnLainnya.Size = new System.Drawing.Size(270, 35);
-            this.btnLainnya.TabIndex = 6;
-            this.btnLainnya.Text = "    Lainnya";
-            this.btnLainnya.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnLainnya.UseVisualStyleBackColor = true;
-            this.btnLainnya.Click += new System.EventHandler(this.btnLainnya_Click_1);
             // 
             // lblSeleted2
             // 
@@ -362,24 +296,6 @@ namespace sample
             this.lblSeleted2.TabIndex = 5;
             this.lblSeleted2.Visible = false;
             // 
-            // btnLaporan
-            // 
-            this.btnLaporan.FlatAppearance.BorderSize = 0;
-            this.btnLaporan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLaporan.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnLaporan.Image = global::sample.Properties.Resources.laporan;
-            this.btnLaporan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLaporan.Location = new System.Drawing.Point(-3, 235);
-            this.btnLaporan.Name = "btnLaporan";
-            this.btnLaporan.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btnLaporan.Size = new System.Drawing.Size(270, 35);
-            this.btnLaporan.TabIndex = 4;
-            this.btnLaporan.Text = "    Laporan";
-            this.btnLaporan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLaporan.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnLaporan.UseVisualStyleBackColor = true;
-            this.btnLaporan.Click += new System.EventHandler(this.btnLaporan_Click_1);
-            // 
             // lblSeleted1
             // 
             this.lblSeleted1.BackColor = System.Drawing.SystemColors.HighlightText;
@@ -389,24 +305,6 @@ namespace sample
             this.lblSeleted1.TabIndex = 3;
             this.lblSeleted1.Visible = false;
             // 
-            // btnTransaksi
-            // 
-            this.btnTransaksi.FlatAppearance.BorderSize = 0;
-            this.btnTransaksi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTransaksi.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnTransaksi.Image = global::sample.Properties.Resources.transaksi;
-            this.btnTransaksi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTransaksi.Location = new System.Drawing.Point(-3, 194);
-            this.btnTransaksi.Name = "btnTransaksi";
-            this.btnTransaksi.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btnTransaksi.Size = new System.Drawing.Size(270, 35);
-            this.btnTransaksi.TabIndex = 2;
-            this.btnTransaksi.Text = "    Transaksi";
-            this.btnTransaksi.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTransaksi.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnTransaksi.UseVisualStyleBackColor = true;
-            this.btnTransaksi.Click += new System.EventHandler(this.btnTransaksi_Click_1);
-            // 
             // blHover
             // 
             this.blHover.BackColor = System.Drawing.SystemColors.HighlightText;
@@ -415,24 +313,6 @@ namespace sample
             this.blHover.Size = new System.Drawing.Size(5, 20);
             this.blHover.TabIndex = 1;
             this.blHover.Visible = false;
-            // 
-            // btnDataMaster
-            // 
-            this.btnDataMaster.FlatAppearance.BorderSize = 0;
-            this.btnDataMaster.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDataMaster.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnDataMaster.Image = global::sample.Properties.Resources.data_master;
-            this.btnDataMaster.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDataMaster.Location = new System.Drawing.Point(-3, 153);
-            this.btnDataMaster.Name = "btnDataMaster";
-            this.btnDataMaster.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btnDataMaster.Size = new System.Drawing.Size(270, 35);
-            this.btnDataMaster.TabIndex = 0;
-            this.btnDataMaster.Text = "   Data Master";
-            this.btnDataMaster.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDataMaster.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnDataMaster.UseVisualStyleBackColor = true;
-            this.btnDataMaster.Click += new System.EventHandler(this.btnDataMaster_Click);
             // 
             // label1
             // 
@@ -476,42 +356,6 @@ namespace sample
             this.pnlControl.Size = new System.Drawing.Size(130, 45);
             this.pnlControl.TabIndex = 0;
             this.pnlControl.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
-            // 
-            // btnminimaze
-            // 
-            this.btnminimaze.FlatAppearance.BorderSize = 0;
-            this.btnminimaze.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnminimaze.Image = global::sample.Properties.Resources.minimize15px;
-            this.btnminimaze.Location = new System.Drawing.Point(61, 13);
-            this.btnminimaze.Name = "btnminimaze";
-            this.btnminimaze.Size = new System.Drawing.Size(18, 18);
-            this.btnminimaze.TabIndex = 2;
-            this.btnminimaze.UseVisualStyleBackColor = true;
-            this.btnminimaze.Click += new System.EventHandler(this.btnminimaze_Click);
-            // 
-            // btnmaximize
-            // 
-            this.btnmaximize.FlatAppearance.BorderSize = 0;
-            this.btnmaximize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnmaximize.Image = global::sample.Properties.Resources.maximize15px;
-            this.btnmaximize.Location = new System.Drawing.Point(82, 12);
-            this.btnmaximize.Name = "btnmaximize";
-            this.btnmaximize.Size = new System.Drawing.Size(18, 18);
-            this.btnmaximize.TabIndex = 1;
-            this.btnmaximize.UseVisualStyleBackColor = true;
-            this.btnmaximize.Click += new System.EventHandler(this.btnmaximize_Click);
-            // 
-            // btnclose
-            // 
-            this.btnclose.FlatAppearance.BorderSize = 0;
-            this.btnclose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnclose.Image = global::sample.Properties.Resources.close15px;
-            this.btnclose.Location = new System.Drawing.Point(100, 12);
-            this.btnclose.Name = "btnclose";
-            this.btnclose.Size = new System.Drawing.Size(18, 18);
-            this.btnclose.TabIndex = 0;
-            this.btnclose.UseVisualStyleBackColor = true;
-            this.btnclose.Click += new System.EventHandler(this.btnclose_Click);
             // 
             // pnlDataMaster
             // 
@@ -557,19 +401,6 @@ namespace sample
             this.label10.Text = "Tipe Kamar";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // btnTipeKamar
-            // 
-            this.btnTipeKamar.BackColor = System.Drawing.Color.Silver;
-            this.btnTipeKamar.FlatAppearance.BorderSize = 0;
-            this.btnTipeKamar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTipeKamar.Image = global::sample.Properties.Resources.admin;
-            this.btnTipeKamar.Location = new System.Drawing.Point(465, 225);
-            this.btnTipeKamar.Name = "btnTipeKamar";
-            this.btnTipeKamar.Size = new System.Drawing.Size(120, 120);
-            this.btnTipeKamar.TabIndex = 24;
-            this.btnTipeKamar.UseVisualStyleBackColor = false;
-            this.btnTipeKamar.Click += new System.EventHandler(this.btnTipeKamar_Click);
-            // 
             // label11
             // 
             this.label11.BackColor = System.Drawing.SystemColors.MenuHighlight;
@@ -581,19 +412,6 @@ namespace sample
             this.label11.Text = "Pesanan";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // btnPesanan
-            // 
-            this.btnPesanan.BackColor = System.Drawing.Color.Silver;
-            this.btnPesanan.FlatAppearance.BorderSize = 0;
-            this.btnPesanan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPesanan.Image = global::sample.Properties.Resources.admin;
-            this.btnPesanan.Location = new System.Drawing.Point(248, 225);
-            this.btnPesanan.Name = "btnPesanan";
-            this.btnPesanan.Size = new System.Drawing.Size(120, 120);
-            this.btnPesanan.TabIndex = 22;
-            this.btnPesanan.UseVisualStyleBackColor = false;
-            this.btnPesanan.Click += new System.EventHandler(this.btnPesanan_Click);
-            // 
             // label12
             // 
             this.label12.BackColor = System.Drawing.SystemColors.MenuHighlight;
@@ -604,19 +422,6 @@ namespace sample
             this.label12.TabIndex = 21;
             this.label12.Text = "Reservasi";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // btnReservasi
-            // 
-            this.btnReservasi.BackColor = System.Drawing.Color.Silver;
-            this.btnReservasi.FlatAppearance.BorderSize = 0;
-            this.btnReservasi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReservasi.Image = global::sample.Properties.Resources.admin;
-            this.btnReservasi.Location = new System.Drawing.Point(42, 225);
-            this.btnReservasi.Name = "btnReservasi";
-            this.btnReservasi.Size = new System.Drawing.Size(120, 120);
-            this.btnReservasi.TabIndex = 20;
-            this.btnReservasi.UseVisualStyleBackColor = false;
-            this.btnReservasi.Click += new System.EventHandler(this.btnReservasi_Click_1);
             // 
             // label9
             // 
@@ -630,19 +435,6 @@ namespace sample
             this.label9.Text = "Kamar";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // btnKamar
-            // 
-            this.btnKamar.BackColor = System.Drawing.Color.Silver;
-            this.btnKamar.FlatAppearance.BorderSize = 0;
-            this.btnKamar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnKamar.Image = global::sample.Properties.Resources.admin;
-            this.btnKamar.Location = new System.Drawing.Point(465, 56);
-            this.btnKamar.Name = "btnKamar";
-            this.btnKamar.Size = new System.Drawing.Size(120, 120);
-            this.btnKamar.TabIndex = 18;
-            this.btnKamar.UseVisualStyleBackColor = false;
-            this.btnKamar.Click += new System.EventHandler(this.btnKamar_Click_1);
-            // 
             // label8
             // 
             this.label8.BackColor = System.Drawing.SystemColors.MenuHighlight;
@@ -653,19 +445,6 @@ namespace sample
             this.label8.TabIndex = 17;
             this.label8.Text = "Tamu";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // btnTamu
-            // 
-            this.btnTamu.BackColor = System.Drawing.Color.Silver;
-            this.btnTamu.FlatAppearance.BorderSize = 0;
-            this.btnTamu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTamu.Image = global::sample.Properties.Resources.anggota;
-            this.btnTamu.Location = new System.Drawing.Point(248, 56);
-            this.btnTamu.Name = "btnTamu";
-            this.btnTamu.Size = new System.Drawing.Size(120, 120);
-            this.btnTamu.TabIndex = 16;
-            this.btnTamu.UseVisualStyleBackColor = false;
-            this.btnTamu.Click += new System.EventHandler(this.btnTamu_Click);
             // 
             // label6
             // 
@@ -678,18 +457,6 @@ namespace sample
             this.label6.Text = "Admin";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label6.Click += new System.EventHandler(this.label6_Click);
-            // 
-            // btnAdmin
-            // 
-            this.btnAdmin.BackColor = System.Drawing.Color.Silver;
-            this.btnAdmin.FlatAppearance.BorderSize = 0;
-            this.btnAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAdmin.Image = global::sample.Properties.Resources.admin;
-            this.btnAdmin.Location = new System.Drawing.Point(42, 56);
-            this.btnAdmin.Name = "btnAdmin";
-            this.btnAdmin.Size = new System.Drawing.Size(120, 120);
-            this.btnAdmin.TabIndex = 14;
-            this.btnAdmin.UseVisualStyleBackColor = false;
             // 
             // pnlTransaksi
             // 
@@ -727,18 +494,6 @@ namespace sample
             this.labelout.Text = "Check Out";
             this.labelout.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // btnCheckOut
-            // 
-            this.btnCheckOut.BackColor = System.Drawing.Color.Silver;
-            this.btnCheckOut.FlatAppearance.BorderSize = 0;
-            this.btnCheckOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCheckOut.Image = global::sample.Properties.Resources.pengembalian;
-            this.btnCheckOut.Location = new System.Drawing.Point(248, 56);
-            this.btnCheckOut.Name = "btnCheckOut";
-            this.btnCheckOut.Size = new System.Drawing.Size(120, 120);
-            this.btnCheckOut.TabIndex = 16;
-            this.btnCheckOut.UseVisualStyleBackColor = false;
-            // 
             // labelin
             // 
             this.labelin.BackColor = System.Drawing.SystemColors.MenuHighlight;
@@ -749,18 +504,6 @@ namespace sample
             this.labelin.TabIndex = 15;
             this.labelin.Text = "Check In";
             this.labelin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // btnCheckIn
-            // 
-            this.btnCheckIn.BackColor = System.Drawing.Color.Silver;
-            this.btnCheckIn.FlatAppearance.BorderSize = 0;
-            this.btnCheckIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCheckIn.Image = global::sample.Properties.Resources.peminjaman1;
-            this.btnCheckIn.Location = new System.Drawing.Point(42, 56);
-            this.btnCheckIn.Name = "btnCheckIn";
-            this.btnCheckIn.Size = new System.Drawing.Size(120, 120);
-            this.btnCheckIn.TabIndex = 14;
-            this.btnCheckIn.UseVisualStyleBackColor = false;
             // 
             // pnlLaporan
             // 
@@ -798,18 +541,6 @@ namespace sample
             this.label22.Text = "Eksport";
             this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button15
-            // 
-            this.button15.BackColor = System.Drawing.Color.Silver;
-            this.button15.FlatAppearance.BorderSize = 0;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Image = global::sample.Properties.Resources.lap_peminjaman;
-            this.button15.Location = new System.Drawing.Point(248, 56);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(120, 120);
-            this.button15.TabIndex = 16;
-            this.button15.UseVisualStyleBackColor = false;
-            // 
             // label23
             // 
             this.label23.BackColor = System.Drawing.SystemColors.MenuHighlight;
@@ -820,18 +551,6 @@ namespace sample
             this.label23.TabIndex = 15;
             this.label23.Text = "Data Laporan";
             this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // button16
-            // 
-            this.button16.BackColor = System.Drawing.Color.Silver;
-            this.button16.FlatAppearance.BorderSize = 0;
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Image = global::sample.Properties.Resources.lap_data_master;
-            this.button16.Location = new System.Drawing.Point(42, 56);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(120, 120);
-            this.button16.TabIndex = 14;
-            this.button16.UseVisualStyleBackColor = false;
             // 
             // pnlLainnya
             // 
@@ -868,19 +587,6 @@ namespace sample
             this.btnUpdatePsWord.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnUpdatePsWord.Click += new System.EventHandler(this.label24_Click);
             // 
-            // btnPassword
-            // 
-            this.btnPassword.BackColor = System.Drawing.Color.Silver;
-            this.btnPassword.FlatAppearance.BorderSize = 0;
-            this.btnPassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPassword.Image = global::sample.Properties.Resources.ubah_kata_sandi;
-            this.btnPassword.Location = new System.Drawing.Point(42, 56);
-            this.btnPassword.Name = "btnPassword";
-            this.btnPassword.Size = new System.Drawing.Size(120, 120);
-            this.btnPassword.TabIndex = 14;
-            this.btnPassword.UseVisualStyleBackColor = false;
-            this.btnPassword.Click += new System.EventHandler(this.button8_Click);
-            // 
             // pnlAbout
             // 
             this.pnlAbout.Controls.Add(this.label18);
@@ -899,9 +605,10 @@ namespace sample
             this.label18.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.label18.Location = new System.Drawing.Point(39, 57);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(626, 351);
+            this.label18.Size = new System.Drawing.Size(626, 364);
             this.label18.TabIndex = 27;
             this.label18.Text = resources.GetString("label18.Text");
+            this.label18.UseMnemonic = false;
             this.label18.Click += new System.EventHandler(this.label18_Click);
             // 
             // label17
@@ -960,18 +667,6 @@ namespace sample
             this.label26.Text = "Lihat Kamar";
             this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // btnRefreshKamar
-            // 
-            this.btnRefreshKamar.BackColor = System.Drawing.Color.Silver;
-            this.btnRefreshKamar.FlatAppearance.BorderSize = 0;
-            this.btnRefreshKamar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRefreshKamar.Image = global::sample.Properties.Resources.refresh_button;
-            this.btnRefreshKamar.Location = new System.Drawing.Point(187, 56);
-            this.btnRefreshKamar.Name = "btnRefreshKamar";
-            this.btnRefreshKamar.Size = new System.Drawing.Size(70, 70);
-            this.btnRefreshKamar.TabIndex = 16;
-            this.btnRefreshKamar.UseVisualStyleBackColor = false;
-            // 
             // label27
             // 
             this.label27.BackColor = System.Drawing.SystemColors.MenuHighlight;
@@ -983,18 +678,6 @@ namespace sample
             this.label27.Text = "Tambah Kamar";
             this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label27.Click += new System.EventHandler(this.label27_Click);
-            // 
-            // btnAddKamar
-            // 
-            this.btnAddKamar.BackColor = System.Drawing.Color.Silver;
-            this.btnAddKamar.FlatAppearance.BorderSize = 0;
-            this.btnAddKamar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddKamar.Image = global::sample.Properties.Resources.bedblue;
-            this.btnAddKamar.Location = new System.Drawing.Point(42, 56);
-            this.btnAddKamar.Name = "btnAddKamar";
-            this.btnAddKamar.Size = new System.Drawing.Size(70, 70);
-            this.btnAddKamar.TabIndex = 14;
-            this.btnAddKamar.UseVisualStyleBackColor = false;
             // 
             // pnlTipeKamar
             // 
@@ -1041,18 +724,6 @@ namespace sample
             this.label21.Text = "Lihat Tipe Kamar";
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // btnRefreshTipe
-            // 
-            this.btnRefreshTipe.BackColor = System.Drawing.Color.Silver;
-            this.btnRefreshTipe.FlatAppearance.BorderSize = 0;
-            this.btnRefreshTipe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRefreshTipe.Image = global::sample.Properties.Resources.refresh_button;
-            this.btnRefreshTipe.Location = new System.Drawing.Point(187, 56);
-            this.btnRefreshTipe.Name = "btnRefreshTipe";
-            this.btnRefreshTipe.Size = new System.Drawing.Size(70, 70);
-            this.btnRefreshTipe.TabIndex = 16;
-            this.btnRefreshTipe.UseVisualStyleBackColor = false;
-            // 
             // label24
             // 
             this.label24.BackColor = System.Drawing.SystemColors.MenuHighlight;
@@ -1063,18 +734,6 @@ namespace sample
             this.label24.TabIndex = 15;
             this.label24.Text = "Tambah Tipe Kamar";
             this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // btnAddTipe
-            // 
-            this.btnAddTipe.BackColor = System.Drawing.Color.Silver;
-            this.btnAddTipe.FlatAppearance.BorderSize = 0;
-            this.btnAddTipe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddTipe.Image = global::sample.Properties.Resources.bedblue;
-            this.btnAddTipe.Location = new System.Drawing.Point(42, 56);
-            this.btnAddTipe.Name = "btnAddTipe";
-            this.btnAddTipe.Size = new System.Drawing.Size(70, 70);
-            this.btnAddTipe.TabIndex = 14;
-            this.btnAddTipe.UseVisualStyleBackColor = false;
             // 
             // pnlTamu
             // 
@@ -1121,18 +780,6 @@ namespace sample
             this.label28.Text = "Lihat Tamu";
             this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // btnRefreshTamu
-            // 
-            this.btnRefreshTamu.BackColor = System.Drawing.Color.Silver;
-            this.btnRefreshTamu.FlatAppearance.BorderSize = 0;
-            this.btnRefreshTamu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRefreshTamu.Image = global::sample.Properties.Resources.refresh_button;
-            this.btnRefreshTamu.Location = new System.Drawing.Point(187, 56);
-            this.btnRefreshTamu.Name = "btnRefreshTamu";
-            this.btnRefreshTamu.Size = new System.Drawing.Size(70, 70);
-            this.btnRefreshTamu.TabIndex = 16;
-            this.btnRefreshTamu.UseVisualStyleBackColor = false;
-            // 
             // label29
             // 
             this.label29.BackColor = System.Drawing.SystemColors.MenuHighlight;
@@ -1143,18 +790,6 @@ namespace sample
             this.label29.TabIndex = 15;
             this.label29.Text = "Tambah Tamu";
             this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // btnAddTamu
-            // 
-            this.btnAddTamu.BackColor = System.Drawing.Color.Silver;
-            this.btnAddTamu.FlatAppearance.BorderSize = 0;
-            this.btnAddTamu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddTamu.Image = global::sample.Properties.Resources.bedblue;
-            this.btnAddTamu.Location = new System.Drawing.Point(42, 56);
-            this.btnAddTamu.Name = "btnAddTamu";
-            this.btnAddTamu.Size = new System.Drawing.Size(70, 70);
-            this.btnAddTamu.TabIndex = 14;
-            this.btnAddTamu.UseVisualStyleBackColor = false;
             // 
             // pnlPesanan
             // 
@@ -1190,18 +825,6 @@ namespace sample
             this.label31.Text = "Lihat Menu";
             this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // btnRefreshMenu
-            // 
-            this.btnRefreshMenu.BackColor = System.Drawing.Color.Silver;
-            this.btnRefreshMenu.FlatAppearance.BorderSize = 0;
-            this.btnRefreshMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRefreshMenu.Image = global::sample.Properties.Resources.refresh_button;
-            this.btnRefreshMenu.Location = new System.Drawing.Point(187, 56);
-            this.btnRefreshMenu.Name = "btnRefreshMenu";
-            this.btnRefreshMenu.Size = new System.Drawing.Size(70, 70);
-            this.btnRefreshMenu.TabIndex = 16;
-            this.btnRefreshMenu.UseVisualStyleBackColor = false;
-            // 
             // label32
             // 
             this.label32.BackColor = System.Drawing.SystemColors.MenuHighlight;
@@ -1212,18 +835,6 @@ namespace sample
             this.label32.TabIndex = 15;
             this.label32.Text = "Tambah Menu";
             this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // btnAddMenu
-            // 
-            this.btnAddMenu.BackColor = System.Drawing.Color.Silver;
-            this.btnAddMenu.FlatAppearance.BorderSize = 0;
-            this.btnAddMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddMenu.Image = global::sample.Properties.Resources.menu;
-            this.btnAddMenu.Location = new System.Drawing.Point(42, 56);
-            this.btnAddMenu.Name = "btnAddMenu";
-            this.btnAddMenu.Size = new System.Drawing.Size(70, 70);
-            this.btnAddMenu.TabIndex = 14;
-            this.btnAddMenu.UseVisualStyleBackColor = false;
             // 
             // label30
             // 
@@ -1378,6 +989,118 @@ namespace sample
             this.label38.Text = "Refresh";
             this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label39
+            // 
+            this.label39.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label39.ForeColor = System.Drawing.Color.White;
+            this.label39.Location = new System.Drawing.Point(42, 117);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(70, 26);
+            this.label39.TabIndex = 15;
+            this.label39.Text = "Check In";
+            this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnTipeKamar
+            // 
+            this.btnTipeKamar.BackColor = System.Drawing.Color.Silver;
+            this.btnTipeKamar.FlatAppearance.BorderSize = 0;
+            this.btnTipeKamar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTipeKamar.Image = global::sample.Properties.Resources.bed__2___2_1;
+            this.btnTipeKamar.Location = new System.Drawing.Point(465, 225);
+            this.btnTipeKamar.Name = "btnTipeKamar";
+            this.btnTipeKamar.Size = new System.Drawing.Size(120, 120);
+            this.btnTipeKamar.TabIndex = 24;
+            this.btnTipeKamar.UseVisualStyleBackColor = false;
+            this.btnTipeKamar.Click += new System.EventHandler(this.btnTipeKamar_Click);
+            // 
+            // btnPesanan
+            // 
+            this.btnPesanan.BackColor = System.Drawing.Color.Silver;
+            this.btnPesanan.FlatAppearance.BorderSize = 0;
+            this.btnPesanan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPesanan.Image = global::sample.Properties.Resources.food_delivery__1_;
+            this.btnPesanan.Location = new System.Drawing.Point(248, 225);
+            this.btnPesanan.Name = "btnPesanan";
+            this.btnPesanan.Size = new System.Drawing.Size(120, 120);
+            this.btnPesanan.TabIndex = 22;
+            this.btnPesanan.UseVisualStyleBackColor = false;
+            this.btnPesanan.Click += new System.EventHandler(this.btnPesanan_Click);
+            // 
+            // btnReservasi
+            // 
+            this.btnReservasi.BackColor = System.Drawing.Color.Silver;
+            this.btnReservasi.FlatAppearance.BorderSize = 0;
+            this.btnReservasi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReservasi.Image = global::sample.Properties.Resources.calendar__1_;
+            this.btnReservasi.Location = new System.Drawing.Point(42, 225);
+            this.btnReservasi.Name = "btnReservasi";
+            this.btnReservasi.Size = new System.Drawing.Size(120, 120);
+            this.btnReservasi.TabIndex = 20;
+            this.btnReservasi.UseVisualStyleBackColor = false;
+            this.btnReservasi.Click += new System.EventHandler(this.btnReservasi_Click_1);
+            // 
+            // btnKamar
+            // 
+            this.btnKamar.BackColor = System.Drawing.Color.Silver;
+            this.btnKamar.FlatAppearance.BorderSize = 0;
+            this.btnKamar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnKamar.Image = global::sample.Properties.Resources.bed__1___1_;
+            this.btnKamar.Location = new System.Drawing.Point(465, 56);
+            this.btnKamar.Name = "btnKamar";
+            this.btnKamar.Size = new System.Drawing.Size(120, 120);
+            this.btnKamar.TabIndex = 18;
+            this.btnKamar.UseVisualStyleBackColor = false;
+            this.btnKamar.Click += new System.EventHandler(this.btnKamar_Click_1);
+            // 
+            // btnTamu
+            // 
+            this.btnTamu.BackColor = System.Drawing.Color.Silver;
+            this.btnTamu.FlatAppearance.BorderSize = 0;
+            this.btnTamu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTamu.Image = global::sample.Properties.Resources.anggota;
+            this.btnTamu.Location = new System.Drawing.Point(248, 56);
+            this.btnTamu.Name = "btnTamu";
+            this.btnTamu.Size = new System.Drawing.Size(120, 120);
+            this.btnTamu.TabIndex = 16;
+            this.btnTamu.UseVisualStyleBackColor = false;
+            this.btnTamu.Click += new System.EventHandler(this.btnTamu_Click);
+            // 
+            // btnAdmin
+            // 
+            this.btnAdmin.BackColor = System.Drawing.Color.Silver;
+            this.btnAdmin.FlatAppearance.BorderSize = 0;
+            this.btnAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAdmin.Image = global::sample.Properties.Resources.admin;
+            this.btnAdmin.Location = new System.Drawing.Point(42, 56);
+            this.btnAdmin.Name = "btnAdmin";
+            this.btnAdmin.Size = new System.Drawing.Size(120, 120);
+            this.btnAdmin.TabIndex = 14;
+            this.btnAdmin.UseVisualStyleBackColor = false;
+            // 
+            // btnRefreshKamar
+            // 
+            this.btnRefreshKamar.BackColor = System.Drawing.Color.Silver;
+            this.btnRefreshKamar.FlatAppearance.BorderSize = 0;
+            this.btnRefreshKamar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRefreshKamar.Image = global::sample.Properties.Resources.refresh_button;
+            this.btnRefreshKamar.Location = new System.Drawing.Point(187, 56);
+            this.btnRefreshKamar.Name = "btnRefreshKamar";
+            this.btnRefreshKamar.Size = new System.Drawing.Size(70, 70);
+            this.btnRefreshKamar.TabIndex = 16;
+            this.btnRefreshKamar.UseVisualStyleBackColor = false;
+            // 
+            // btnAddKamar
+            // 
+            this.btnAddKamar.BackColor = System.Drawing.Color.Silver;
+            this.btnAddKamar.FlatAppearance.BorderSize = 0;
+            this.btnAddKamar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddKamar.Image = global::sample.Properties.Resources.bedblue;
+            this.btnAddKamar.Location = new System.Drawing.Point(42, 56);
+            this.btnAddKamar.Name = "btnAddKamar";
+            this.btnAddKamar.Size = new System.Drawing.Size(70, 70);
+            this.btnAddKamar.TabIndex = 14;
+            this.btnAddKamar.UseVisualStyleBackColor = false;
+            // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.Silver;
@@ -1389,17 +1112,6 @@ namespace sample
             this.button3.Size = new System.Drawing.Size(70, 70);
             this.button3.TabIndex = 16;
             this.button3.UseVisualStyleBackColor = false;
-            // 
-            // label39
-            // 
-            this.label39.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label39.ForeColor = System.Drawing.Color.White;
-            this.label39.Location = new System.Drawing.Point(42, 117);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(70, 26);
-            this.label39.TabIndex = 15;
-            this.label39.Text = "Check In";
-            this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnCekIn
             // 
@@ -1414,13 +1126,302 @@ namespace sample
             this.btnCekIn.UseVisualStyleBackColor = false;
             this.btnCekIn.Click += new System.EventHandler(this.btnCekIn_Click);
             // 
+            // btnCheckOut
+            // 
+            this.btnCheckOut.BackColor = System.Drawing.Color.Silver;
+            this.btnCheckOut.FlatAppearance.BorderSize = 0;
+            this.btnCheckOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCheckOut.Image = global::sample.Properties.Resources.pengembalian;
+            this.btnCheckOut.Location = new System.Drawing.Point(248, 56);
+            this.btnCheckOut.Name = "btnCheckOut";
+            this.btnCheckOut.Size = new System.Drawing.Size(120, 120);
+            this.btnCheckOut.TabIndex = 16;
+            this.btnCheckOut.UseVisualStyleBackColor = false;
+            // 
+            // btnCheckIn
+            // 
+            this.btnCheckIn.BackColor = System.Drawing.Color.Silver;
+            this.btnCheckIn.FlatAppearance.BorderSize = 0;
+            this.btnCheckIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCheckIn.Image = global::sample.Properties.Resources.peminjaman1;
+            this.btnCheckIn.Location = new System.Drawing.Point(42, 56);
+            this.btnCheckIn.Name = "btnCheckIn";
+            this.btnCheckIn.Size = new System.Drawing.Size(120, 120);
+            this.btnCheckIn.TabIndex = 14;
+            this.btnCheckIn.UseVisualStyleBackColor = false;
+            // 
+            // btnPassword
+            // 
+            this.btnPassword.BackColor = System.Drawing.Color.Silver;
+            this.btnPassword.FlatAppearance.BorderSize = 0;
+            this.btnPassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPassword.Image = global::sample.Properties.Resources.ubah_kata_sandi;
+            this.btnPassword.Location = new System.Drawing.Point(42, 56);
+            this.btnPassword.Name = "btnPassword";
+            this.btnPassword.Size = new System.Drawing.Size(120, 120);
+            this.btnPassword.TabIndex = 14;
+            this.btnPassword.UseVisualStyleBackColor = false;
+            this.btnPassword.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // button15
+            // 
+            this.button15.BackColor = System.Drawing.Color.Silver;
+            this.button15.FlatAppearance.BorderSize = 0;
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button15.Image = global::sample.Properties.Resources.lap_peminjaman;
+            this.button15.Location = new System.Drawing.Point(248, 56);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(120, 120);
+            this.button15.TabIndex = 16;
+            this.button15.UseVisualStyleBackColor = false;
+            // 
+            // button16
+            // 
+            this.button16.BackColor = System.Drawing.Color.Silver;
+            this.button16.FlatAppearance.BorderSize = 0;
+            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button16.Image = global::sample.Properties.Resources.lap_data_master;
+            this.button16.Location = new System.Drawing.Point(42, 56);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(120, 120);
+            this.button16.TabIndex = 14;
+            this.button16.UseVisualStyleBackColor = false;
+            // 
+            // btnminimaze
+            // 
+            this.btnminimaze.FlatAppearance.BorderSize = 0;
+            this.btnminimaze.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnminimaze.Image = global::sample.Properties.Resources.minimize15px;
+            this.btnminimaze.Location = new System.Drawing.Point(61, 13);
+            this.btnminimaze.Name = "btnminimaze";
+            this.btnminimaze.Size = new System.Drawing.Size(18, 18);
+            this.btnminimaze.TabIndex = 2;
+            this.btnminimaze.UseVisualStyleBackColor = true;
+            this.btnminimaze.Click += new System.EventHandler(this.btnminimaze_Click);
+            // 
+            // btnmaximize
+            // 
+            this.btnmaximize.FlatAppearance.BorderSize = 0;
+            this.btnmaximize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnmaximize.Image = global::sample.Properties.Resources.maximize15px;
+            this.btnmaximize.Location = new System.Drawing.Point(82, 12);
+            this.btnmaximize.Name = "btnmaximize";
+            this.btnmaximize.Size = new System.Drawing.Size(18, 18);
+            this.btnmaximize.TabIndex = 1;
+            this.btnmaximize.UseVisualStyleBackColor = true;
+            this.btnmaximize.Click += new System.EventHandler(this.btnmaximize_Click);
+            // 
+            // btnclose
+            // 
+            this.btnclose.FlatAppearance.BorderSize = 0;
+            this.btnclose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnclose.Image = global::sample.Properties.Resources.close15px;
+            this.btnclose.Location = new System.Drawing.Point(100, 12);
+            this.btnclose.Name = "btnclose";
+            this.btnclose.Size = new System.Drawing.Size(18, 18);
+            this.btnclose.TabIndex = 0;
+            this.btnclose.UseVisualStyleBackColor = true;
+            this.btnclose.Click += new System.EventHandler(this.btnclose_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Image = global::sample.Properties.Resources.avatar50px;
+            this.button2.Location = new System.Drawing.Point(6, 10);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(70, 70);
+            this.button2.TabIndex = 13;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // btnLogout
+            // 
+            this.btnLogout.FlatAppearance.BorderSize = 0;
+            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogout.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnLogout.Image = global::sample.Properties.Resources.logout;
+            this.btnLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLogout.Location = new System.Drawing.Point(-3, 8);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnLogout.Size = new System.Drawing.Size(270, 35);
+            this.btnLogout.TabIndex = 10;
+            this.btnLogout.Text = "    Keluar";
+            this.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLogout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnLogout.UseVisualStyleBackColor = true;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click_1);
+            // 
+            // btnAbout
+            // 
+            this.btnAbout.FlatAppearance.BorderSize = 0;
+            this.btnAbout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAbout.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnAbout.Image = global::sample.Properties.Resources.tentang;
+            this.btnAbout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAbout.Location = new System.Drawing.Point(-3, 317);
+            this.btnAbout.Name = "btnAbout";
+            this.btnAbout.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnAbout.Size = new System.Drawing.Size(270, 35);
+            this.btnAbout.TabIndex = 8;
+            this.btnAbout.Text = "    Tentang Aplikasi";
+            this.btnAbout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAbout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnAbout.UseVisualStyleBackColor = true;
+            this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click_1);
+            // 
+            // btnLainnya
+            // 
+            this.btnLainnya.FlatAppearance.BorderSize = 0;
+            this.btnLainnya.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLainnya.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnLainnya.Image = global::sample.Properties.Resources.lainnya;
+            this.btnLainnya.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLainnya.Location = new System.Drawing.Point(-3, 276);
+            this.btnLainnya.Name = "btnLainnya";
+            this.btnLainnya.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnLainnya.Size = new System.Drawing.Size(270, 35);
+            this.btnLainnya.TabIndex = 6;
+            this.btnLainnya.Text = "    Lainnya";
+            this.btnLainnya.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnLainnya.UseVisualStyleBackColor = true;
+            this.btnLainnya.Click += new System.EventHandler(this.btnLainnya_Click_1);
+            // 
+            // btnLaporan
+            // 
+            this.btnLaporan.FlatAppearance.BorderSize = 0;
+            this.btnLaporan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLaporan.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnLaporan.Image = global::sample.Properties.Resources.laporan;
+            this.btnLaporan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLaporan.Location = new System.Drawing.Point(-3, 235);
+            this.btnLaporan.Name = "btnLaporan";
+            this.btnLaporan.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnLaporan.Size = new System.Drawing.Size(270, 35);
+            this.btnLaporan.TabIndex = 4;
+            this.btnLaporan.Text = "    Laporan";
+            this.btnLaporan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLaporan.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnLaporan.UseVisualStyleBackColor = true;
+            this.btnLaporan.Click += new System.EventHandler(this.btnLaporan_Click_1);
+            // 
+            // btnTransaksi
+            // 
+            this.btnTransaksi.FlatAppearance.BorderSize = 0;
+            this.btnTransaksi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTransaksi.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnTransaksi.Image = global::sample.Properties.Resources.transaksi;
+            this.btnTransaksi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTransaksi.Location = new System.Drawing.Point(-3, 194);
+            this.btnTransaksi.Name = "btnTransaksi";
+            this.btnTransaksi.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnTransaksi.Size = new System.Drawing.Size(270, 35);
+            this.btnTransaksi.TabIndex = 2;
+            this.btnTransaksi.Text = "    Transaksi";
+            this.btnTransaksi.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTransaksi.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnTransaksi.UseVisualStyleBackColor = true;
+            this.btnTransaksi.Click += new System.EventHandler(this.btnTransaksi_Click_1);
+            // 
+            // btnDataMaster
+            // 
+            this.btnDataMaster.FlatAppearance.BorderSize = 0;
+            this.btnDataMaster.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDataMaster.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnDataMaster.Image = global::sample.Properties.Resources.data_master;
+            this.btnDataMaster.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDataMaster.Location = new System.Drawing.Point(-3, 153);
+            this.btnDataMaster.Name = "btnDataMaster";
+            this.btnDataMaster.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnDataMaster.Size = new System.Drawing.Size(270, 35);
+            this.btnDataMaster.TabIndex = 0;
+            this.btnDataMaster.Text = "   Data Master";
+            this.btnDataMaster.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDataMaster.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnDataMaster.UseVisualStyleBackColor = true;
+            this.btnDataMaster.Click += new System.EventHandler(this.btnDataMaster_Click);
+            // 
+            // btnRefreshMenu
+            // 
+            this.btnRefreshMenu.BackColor = System.Drawing.Color.Silver;
+            this.btnRefreshMenu.FlatAppearance.BorderSize = 0;
+            this.btnRefreshMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRefreshMenu.Image = global::sample.Properties.Resources.refresh_button;
+            this.btnRefreshMenu.Location = new System.Drawing.Point(187, 56);
+            this.btnRefreshMenu.Name = "btnRefreshMenu";
+            this.btnRefreshMenu.Size = new System.Drawing.Size(70, 70);
+            this.btnRefreshMenu.TabIndex = 16;
+            this.btnRefreshMenu.UseVisualStyleBackColor = false;
+            // 
+            // btnAddMenu
+            // 
+            this.btnAddMenu.BackColor = System.Drawing.Color.Silver;
+            this.btnAddMenu.FlatAppearance.BorderSize = 0;
+            this.btnAddMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddMenu.Image = global::sample.Properties.Resources.menu;
+            this.btnAddMenu.Location = new System.Drawing.Point(42, 56);
+            this.btnAddMenu.Name = "btnAddMenu";
+            this.btnAddMenu.Size = new System.Drawing.Size(70, 70);
+            this.btnAddMenu.TabIndex = 14;
+            this.btnAddMenu.UseVisualStyleBackColor = false;
+            // 
+            // btnRefreshTamu
+            // 
+            this.btnRefreshTamu.BackColor = System.Drawing.Color.Silver;
+            this.btnRefreshTamu.FlatAppearance.BorderSize = 0;
+            this.btnRefreshTamu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRefreshTamu.Image = global::sample.Properties.Resources.refresh_button;
+            this.btnRefreshTamu.Location = new System.Drawing.Point(187, 56);
+            this.btnRefreshTamu.Name = "btnRefreshTamu";
+            this.btnRefreshTamu.Size = new System.Drawing.Size(70, 70);
+            this.btnRefreshTamu.TabIndex = 16;
+            this.btnRefreshTamu.UseVisualStyleBackColor = false;
+            // 
+            // btnAddTamu
+            // 
+            this.btnAddTamu.BackColor = System.Drawing.Color.Silver;
+            this.btnAddTamu.FlatAppearance.BorderSize = 0;
+            this.btnAddTamu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddTamu.Image = global::sample.Properties.Resources.bedblue;
+            this.btnAddTamu.Location = new System.Drawing.Point(42, 56);
+            this.btnAddTamu.Name = "btnAddTamu";
+            this.btnAddTamu.Size = new System.Drawing.Size(70, 70);
+            this.btnAddTamu.TabIndex = 14;
+            this.btnAddTamu.UseVisualStyleBackColor = false;
+            // 
+            // btnRefreshTipe
+            // 
+            this.btnRefreshTipe.BackColor = System.Drawing.Color.Silver;
+            this.btnRefreshTipe.FlatAppearance.BorderSize = 0;
+            this.btnRefreshTipe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRefreshTipe.Image = global::sample.Properties.Resources.refresh_button;
+            this.btnRefreshTipe.Location = new System.Drawing.Point(187, 56);
+            this.btnRefreshTipe.Name = "btnRefreshTipe";
+            this.btnRefreshTipe.Size = new System.Drawing.Size(70, 70);
+            this.btnRefreshTipe.TabIndex = 16;
+            this.btnRefreshTipe.UseVisualStyleBackColor = false;
+            // 
+            // btnAddTipe
+            // 
+            this.btnAddTipe.BackColor = System.Drawing.Color.Silver;
+            this.btnAddTipe.FlatAppearance.BorderSize = 0;
+            this.btnAddTipe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddTipe.Image = global::sample.Properties.Resources.bedblue;
+            this.btnAddTipe.Location = new System.Drawing.Point(42, 56);
+            this.btnAddTipe.Name = "btnAddTipe";
+            this.btnAddTipe.Size = new System.Drawing.Size(70, 70);
+            this.btnAddTipe.TabIndex = 14;
+            this.btnAddTipe.UseVisualStyleBackColor = false;
+            // 
             // FrmUtama
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(934, 461);
-            this.Controls.Add(this.pnlKamar);
             this.Controls.Add(this.pnlDataMaster);
+            this.Controls.Add(this.pnlKamar);
             this.Controls.Add(this.pnlGantiPassword);
             this.Controls.Add(this.pnlReservasi);
             this.Controls.Add(this.pnlTransaksi);

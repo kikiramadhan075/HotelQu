@@ -246,6 +246,12 @@ namespace sample
             ubahPsWord.ShowDialog();
         }
 
+        private void btnPesanan_Click(object sender, EventArgs e)
+        {
+            FrmPesanan pesanan = new FrmPesanan();
+            pesanan.ShowDialog();
+        }
+
         public FrmUtama()
         {
             InitializeComponent();

@@ -72,6 +72,60 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmCheckIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCheckIn.Designer.cs">
+      <DependentUpon>FrmCheckIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKamar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKamar.Designer.cs">
+      <DependentUpon>FrmKamar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPesanan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPesanan.Designer.cs">
+      <DependentUpon>FrmPesanan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReservasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReservasi.Designer.cs">
+      <DependentUpon>FrmReservasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTambahKamar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTambahKamar.Designer.cs">
+      <DependentUpon>FrmTambahKamar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTambahTamu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTambahTamu.Designer.cs">
+      <DependentUpon>FrmTambahTamu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTamu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTamu.Designer.cs">
+      <DependentUpon>FrmTamu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTipeKamar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTipeKamar.Designer.cs">
+      <DependentUpon>FrmTipeKamar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUbahPsWord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUbahPsWord.Designer.cs">
+      <DependentUpon>FrmUbahPsWord.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmUtama.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +140,33 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmCheckIn.resx">
+      <DependentUpon>FrmCheckIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKamar.resx">
+      <DependentUpon>FrmKamar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPesanan.resx">
+      <DependentUpon>FrmPesanan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReservasi.resx">
+      <DependentUpon>FrmReservasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTambahKamar.resx">
+      <DependentUpon>FrmTambahKamar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTambahTamu.resx">
+      <DependentUpon>FrmTambahTamu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTamu.resx">
+      <DependentUpon>FrmTamu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTipeKamar.resx">
+      <DependentUpon>FrmTipeKamar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUbahPsWord.resx">
+      <DependentUpon>FrmUbahPsWord.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmUtama.resx">
       <DependentUpon>FrmUtama.cs</DependentUpon>
     </EmbeddedResource>
@@ -168,6 +249,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ubah kata sandi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check-in %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check-in %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bedblue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check-in.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check-in %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh-button1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bedblue1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh-button2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

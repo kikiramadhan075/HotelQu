@@ -130,6 +130,9 @@
   <data name="check-in (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\check-in (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="WhatsApp Image 2023-01-24 at 19.25.30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp Image 2023-01-24 at 19.25.30.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -147,6 +150,15 @@
   </data>
   <data name="peminjaman1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\peminjaman1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhatsApp Image 2023-01-18 at 06.20.51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp Image 2023-01-18 at 06.20.51.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="addmenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addmenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bedblue1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bedblue1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bedblue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bedblue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,20 +178,32 @@
   <data name="lainnya" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lainnya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="food-delivery (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\food-delivery (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="lap data master" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lap data master.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="check-in (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\check-in (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bedblue1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bedblue1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="refresh-button2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh-button2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bed (2) (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bed (2) (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="data master" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\data master.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tentang" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tentang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="calendar (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendar (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bed (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bed (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check-in (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\check-in (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="check-in" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\check-in.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,8 +217,8 @@
   <data name="check (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\check (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="check-in (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\check-in (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bed (1) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bed (1) (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="laporan" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\laporan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,7 +232,13 @@
   <data name="peminjaman" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\peminjaman.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="refresh-button2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\refresh-button2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bed (2) (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bed (2) (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tentang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tentang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="note" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\note.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

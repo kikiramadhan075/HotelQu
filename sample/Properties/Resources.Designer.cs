@@ -63,6 +63,16 @@ namespace sample.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap addmenu {
+            get {
+                object obj = ResourceManager.GetObject("addmenu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap admin {
             get {
                 object obj = ResourceManager.GetObject("admin", resourceCulture);
@@ -93,6 +103,46 @@ namespace sample.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bed__1___1_ {
+            get {
+                object obj = ResourceManager.GetObject("bed (1) (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bed__2_ {
+            get {
+                object obj = ResourceManager.GetObject("bed (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bed__2___2_ {
+            get {
+                object obj = ResourceManager.GetObject("bed (2) (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bed__2___2_1 {
+            get {
+                object obj = ResourceManager.GetObject("bed (2) (2)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bedblue {
             get {
                 object obj = ResourceManager.GetObject("bedblue", resourceCulture);
@@ -106,6 +156,16 @@ namespace sample.Properties {
         internal static System.Drawing.Bitmap bedblue1 {
             get {
                 object obj = ResourceManager.GetObject("bedblue1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap calendar__1_ {
+            get {
+                object obj = ResourceManager.GetObject("calendar (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -176,6 +236,16 @@ namespace sample.Properties {
         internal static System.Drawing.Bitmap data_master {
             get {
                 object obj = ResourceManager.GetObject("data master", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap food_delivery__1_ {
+            get {
+                object obj = ResourceManager.GetObject("food-delivery (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -266,6 +336,16 @@ namespace sample.Properties {
         internal static System.Drawing.Bitmap minimize15px {
             get {
                 object obj = ResourceManager.GetObject("minimize15px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap note {
+            get {
+                object obj = ResourceManager.GetObject("note", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -366,6 +446,26 @@ namespace sample.Properties {
         internal static System.Drawing.Bitmap ubah_kata_sandi {
             get {
                 object obj = ResourceManager.GetObject("ubah kata sandi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2023_01_18_at_06_20_51 {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2023-01-18 at 06.20.51", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2023_01_24_at_19_25_30 {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2023-01-24 at 19.25.30", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

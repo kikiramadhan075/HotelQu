@@ -82,3 +82,6 @@ C:\Users\BIGBOSS\Source\Repos\HotelQuV1\sample\obj\Debug\sample.FrmKamar.resourc
 C:\Users\BIGBOSS\Source\Repos\HotelQuV1\sample\obj\Debug\sample.FrmTambahKamar.resources
 C:\Users\BIGBOSS\Source\Repos\HotelQuV1\sample\obj\Debug\sample.FrmTipeKamar.resources
 C:\Users\BIGBOSS\Source\Repos\HotelQuV1\sample\obj\Debug\sample.FrmUbahPsWord.resources
+C:\Users\BIGBOSS\Source\Repos\HotelQuV1\sample\obj\Debug\sample.FrmPesanan.resources
+C:\Users\BIGBOSS\Source\Repos\HotelQuV1\sample\obj\Debug\sample.FrmTambahMenu.resources
+C:\Users\BIGBOSS\Source\Repos\HotelQuV1\sample\obj\Debug\sample.FrmTambahPesanan.resources

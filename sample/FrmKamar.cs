@@ -66,5 +66,10 @@ namespace sample
         {
            
         }
+
+        private void pnlKamar_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

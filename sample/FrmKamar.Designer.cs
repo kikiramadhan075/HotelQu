@@ -55,6 +55,7 @@ namespace sample
             this.pnlKamar.Name = "pnlKamar";
             this.pnlKamar.Size = new System.Drawing.Size(800, 450);
             this.pnlKamar.TabIndex = 8;
+            this.pnlKamar.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlKamar_Paint);
             // 
             // btnKembali
             // 

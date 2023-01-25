@@ -63,7 +63,7 @@ namespace sample
                     f1.Show();
                     this.Hide();
                 }
-
+                // Validasi Login
                 if(usrName.Text.TrimStart()== string.Empty)
                 {
                     MessageBox.Show("Mohon Masukkan Username", "Error");
